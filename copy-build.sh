@@ -5,6 +5,7 @@ Page-2/
 green-river.png
 index.html
 large.jpg
+ads.txt
 )
 
 FROM="pre/"
