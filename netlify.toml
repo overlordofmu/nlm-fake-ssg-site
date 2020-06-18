@@ -8,7 +8,7 @@
 
 [build.environment]
   CI = "false"
-
+  ARBITRARY = "build.environment-setting"
 [context.deploy-preview]
 
 #  command = "  || { sleep 120 ; false ; } "
