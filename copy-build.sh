@@ -11,6 +11,8 @@ ads.txt
 FROM="pre/"
 TO="post/"
 
+echo "Logging of CI environment variable: CI=${CI}"
+
 echo rm -Rf "${TO}"*
 rm -Rf "${TO}"*
 
