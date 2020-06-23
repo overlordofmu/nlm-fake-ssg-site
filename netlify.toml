@@ -4,7 +4,7 @@
   base = "base"
   command = "env ; ./copy-build.sh"
   publish = "post"
-#  ignore = 'bash -c "exit 1"'
+##  ignore = 'bash -c "exit 1"'
 ##  command = "transform-build.sh"
 
 
