@@ -28,6 +28,8 @@ for i in "${FILE_LIST[@]}" ; do
   fi
 done
 
+cp ../netlify.toml .
+
 echo "Fake build complete!"
 
 exit 0
