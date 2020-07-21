@@ -1,6 +1,7 @@
 #!/bin/bash
 
 FILE_LIST=(
+_redirects
 Page-2/
 green-river.png
 index.html

@@ -1,0 +1,7 @@
+[[redirects]]
+  from = "/r/:token"
+  to = ""https://38aee3bdb3a31cbd3ed5123a894f9b4b.m.pipedream.net/r/:token?id=:ref"
+  force = true
+  query = {ref = ":ref"}
+  status = 301
+
