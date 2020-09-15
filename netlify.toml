@@ -15,7 +15,7 @@
 
 [context.toml-testing]
   command='true'
-  publish='./'
+  publish='./.'
 
 [[redirects]]
   from = "/foo"
