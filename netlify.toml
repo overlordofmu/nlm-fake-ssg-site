@@ -15,6 +15,10 @@
 
 #  command = "  || { sleep 120 ; false ; } "
 
+[context.toml-testing]
+  command='true'
+  publish='.'
+
 [[redirects]]
   from = "/foo"
   to = "/bar"
