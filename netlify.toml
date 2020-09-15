@@ -1,7 +1,9 @@
 [build]
 # here we will use build commands to simulate a static site build
 # simple copy/move
+  base = "base"
   command = "hugo version ; env ; ./copy-build.sh"
+  publish = "post"
   ignore = "false"
 
 [build.environment]
