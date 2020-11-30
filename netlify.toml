@@ -43,6 +43,10 @@
 [[redirects]]
   from = "/xyz"
   to = "https://zerotousers.com"
-  [headers.values]
+  [redirects.headers]
     X-From = "Netlify"
 
+[[headers]]
+  for = "/abc"
+  [headers.values]
+    X-From = "Netlify"
