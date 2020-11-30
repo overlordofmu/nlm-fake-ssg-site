@@ -34,3 +34,14 @@
   query = {ref = ":ref"}
   status = 200
 
+[[redirects]]
+  from = "/abc"
+  to = "https://zerotousers.com"
+  headers = {X-From = "Netlify"}
+
+
+[[redirects]]
+  from = "/xyz"
+  to = "https://zerotousers.com"
+  [headers.values]
+    X-From = "Netlify"}
