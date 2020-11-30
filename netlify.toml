@@ -44,4 +44,5 @@
   from = "/xyz"
   to = "https://zerotousers.com"
   [headers.values]
-    X-From = "Netlify"}
+    X-From = "Netlify"
+
