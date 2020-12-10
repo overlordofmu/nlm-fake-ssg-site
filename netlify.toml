@@ -1,8 +1,8 @@
 [build]
 # here we will use build commands to simulate a static site build
 # simple copy/move - reference https://community.netlify.com/t/using-next-js-as-a-static-site-generator-for-netlify/3391
-  base = "base"
-  command = "hugo version ; env ; ./copy-build.sh"
+  base = ""
+  command = "hugo version ; env ; cd base ; ./copy-build.sh"
   publish = "post"
 #  ignore = "git diff --quiet HEAD^ HEAD ."
 ##  command = "transform-build.sh"
