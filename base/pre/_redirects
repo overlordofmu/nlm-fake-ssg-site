@@ -2,4 +2,4 @@
 /redirect/* https://of-mu.netlify.app/:splat 200
 
 /green-river.png?nf_resize=fit&w=300&h=400 /green-river.png?nf_resize=fit&w=300&h=400 200!
-/green-river.png* / 404!
+/green-river.png / 404!
