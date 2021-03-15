@@ -3,3 +3,6 @@
 
 /green-river.png?nf_resize=fit&w=300&h=400 /green-river.png?nf_resize=fit&w=300&h=400 200!
 /green-river.png / 404!
+
+/test1 page=:page /partial-segment-:page/example 301!
+/test2 page=:page /full-segment/:page/example 301!
