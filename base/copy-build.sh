@@ -7,6 +7,7 @@ green-river.png
 index.html
 large.jpg
 ads.txt
+.well-known/
 )
 
 FROM="pre/"
