@@ -6,3 +6,7 @@
 
 /test1 page=:page /partial-segment-:page/example 301!
 /test2 page=:page /full-segment/:page/example 301!
+
+
+/page utm=:utm /page?utm=:utm 200!
+/page  /page?utm=foo 301!
