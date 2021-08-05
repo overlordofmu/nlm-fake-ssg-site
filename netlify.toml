@@ -5,7 +5,7 @@
   command = "[ \"$CONTEXT\" = \"deploy-preview\" ] && export API_URL=\"$DEPLOY_PRIME_URL\" ; env ; ./copy-build.sh"
   publish = "post"
   ignore = "false"
-##  command = "transform-build.sh"
+#  command = "transform-build.sh"
 
 
 [build.environment]
