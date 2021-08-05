@@ -2,7 +2,7 @@
 # here we will use build commands to simulate a static site build
 # simple copy/move - reference https://community.netlify.com/t/using-next-js-as-a-static-site-generator-for-netlify/3391
   base = "base"
-  command = "[ \"$CONTEXT\" = \"deploy-preview\" ] && export API_URL=\"$DEPLOY_PRIME_URL\" ; env ; ./copy-build.sh"
+  command = "[ \"$CONTEXT\" = \"deploy-preview\" ] && export API_URL=\"$DEPLOY_PRIME_URL\" ; env ; ./copy-build.sh ; exit 1"
   publish = "post"
 ##  command = "transform-build.sh"
 
