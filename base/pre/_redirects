@@ -10,3 +10,5 @@
 
 /page utm=:utm /page?utm=:utm 200!
 /page  /page?utm=foo 301!
+
+/small.html   /small  301!
